@@ -230,19 +230,20 @@ body{
 
     .p-2{
         width: 550px;
+        height: 790px;
         border-radius: 30px;
     }
 
    .p-3 img{
         width: 250px;
         height: 70px;
-        left: 50px;
+        left: 120px;
     }
 
     .p-4{
         width: 250px;
         top: 150px;
-        left: 50px;
+        left: 120px;
     }
 
     .p-4 p{
@@ -254,7 +255,7 @@ body{
         width: 260px;
         height: 40px;
         top: 260px;
-        left: 50px;
+        left: 120px;
     }
 
     .p-5-1 img{
@@ -271,7 +272,7 @@ body{
         width: 260px;
         height: 40px;
         top: 306px;
-        left: 50px;
+        left: 120px;
     }
     .p-6-1 img{
         top: 9px;
@@ -297,25 +298,25 @@ body{
         width: 260px;
         height: 40px;
         top: 430px;
-        left: 50px;
+        left: 120px;
     }
 
     .p-9{
         top: 490px;
-        left: 50px;
+        left: 120px;
 
     }
 
     .p-9 hr{
         border: 1px solid #9b9b9b;
-        width: 100px;
+        width: 120px;
     }
 
     .p-10{
         width: 200px;
         height: 40px;
         top: 530px;
-        left: 50px;
+        left: 80px;
 
     }
 
@@ -323,19 +324,19 @@ body{
         width: 200px;
         height: 40px;
         top: 580px;
-        left: 50px;
+        left: 80px;
     }
 
     .p-12{
         width: 200px;
         height: 40px;
         top: 630px;
-        left: 50px;
+        left: 80px;
     }
 
 
     .p-13{
-        top: 680px;
-        left: 50px;
+        top: 670px;
+        left: 130px;
     }
 }

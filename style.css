@@ -224,4 +224,118 @@ body{
     .p-14{
         display: none;
     }
+    .p-2{
+        width: 100vw;
+    }
+
+    .p-2{
+        width: 550px;
+        border-radius: 30px;
+    }
+
+   .p-3 img{
+        width: 250px;
+        height: 70px;
+        left: 20px;
+    }
+
+    .p-4{
+        width: 250px;
+        top: 150px;
+        left: 20px;
+    }
+
+    .p-4 p{
+       font-size: 20px;
+    }
+
+
+    .p-5{
+        width: 240px;
+        height: 40px;
+        top: 260px;
+        left: 15px;
+    }
+
+    .p-5-1 img{
+        top: 8px;
+    }
+
+    .p-5-2 p{
+        width: 180px;
+        left: 35px;
+        top: -5px;
+    }
+
+    .p-6{
+        width: 240px;
+        height: 40px;
+        top: 306px;
+        left: 15px;
+    }
+    .p-6-1 img{
+        top: 9px;
+        left: 14px;
+    }
+
+    .p-6 p{
+        left: 35px;
+        top: -5px;
+    }
+
+    .p-6-2 img{
+        top: 12px;
+    }
+
+   .p-7 p{
+       width: 140px;
+       top: 334px;
+       left: 165px;
+    }
+
+    .p-8{
+        width: 240px;
+        height: 40px;
+        top: 430px;
+        left: 15px;
+    }
+
+    .p-9{
+        top: 490px;
+        left: 15px;
+
+    }
+
+    .p-9 hr{
+        border: 1px solid #9b9b9b;
+        width: 100px;
+    }
+
+    .p-10{
+        width: 240px;
+        height: 40px;
+        top: 530px;
+        left: 15px;
+
+    }
+
+    .p-11{
+        width: 240px;
+        height: 40px;
+        top: 580px;
+        left: 15px;
+    }
+
+    .p-12{
+        width: 240px;
+        height: 40px;
+        top: 630px;
+        left: 15px;
+    }
+
+
+    .p-13{
+        top: 680px;
+        left: 18px;
+    }
 }

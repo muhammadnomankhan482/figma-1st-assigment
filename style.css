@@ -201,6 +201,10 @@ body{
 
 
     /* hover  */
+.hover-one,.p-13 span :hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
 .hover-two{
     cursor: pointer;
 }

@@ -236,13 +236,13 @@ body{
    .p-3 img{
         width: 250px;
         height: 70px;
-        left: 20px;
+        left: 50px;
     }
 
     .p-4{
         width: 250px;
         top: 150px;
-        left: 20px;
+        left: 50px;
     }
 
     .p-4 p{
@@ -251,10 +251,10 @@ body{
 
 
     .p-5{
-        width: 240px;
+        width: 260px;
         height: 40px;
         top: 260px;
-        left: 15px;
+        left: 50px;
     }
 
     .p-5-1 img{
@@ -268,10 +268,10 @@ body{
     }
 
     .p-6{
-        width: 240px;
+        width: 260px;
         height: 40px;
         top: 306px;
-        left: 15px;
+        left: 50px;
     }
     .p-6-1 img{
         top: 9px;
@@ -294,15 +294,15 @@ body{
     }
 
     .p-8{
-        width: 240px;
+        width: 260px;
         height: 40px;
         top: 430px;
-        left: 15px;
+        left: 50px;
     }
 
     .p-9{
         top: 490px;
-        left: 15px;
+        left: 50px;
 
     }
 
@@ -312,30 +312,30 @@ body{
     }
 
     .p-10{
-        width: 240px;
+        width: 260px;
         height: 40px;
         top: 530px;
-        left: 15px;
+        left: 50px;
 
     }
 
     .p-11{
-        width: 240px;
+        width: 260px;
         height: 40px;
         top: 580px;
-        left: 15px;
+        left: 50px;
     }
 
     .p-12{
-        width: 240px;
+        width: 260px;
         height: 40px;
         top: 630px;
-        left: 15px;
+        left: 50px;
     }
 
 
     .p-13{
         top: 680px;
-        left: 18px;
+        left: 50px;
     }
 }

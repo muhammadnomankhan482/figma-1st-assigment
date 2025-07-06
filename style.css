@@ -10,7 +10,7 @@ body{
 
 .p-2{
     position: relative;
-    width: 600px;
+    width: 40vw;
     height: 1024px;
     background-color: darkblue;
     border-radius: 30px 0 0px 30px;
@@ -156,13 +156,24 @@ body{
     border: 1px solid #9b9b9b;
 }
 
+svg{
+    width: 24px;
+    height: 24px;
+}
+
 .p-10{
     position: absolute;
     width: 350px;
     height: 45.2px;
     top: 657.87px;
     left: 114.5px;
-
+    background-color: #0f2d6b;
+    border-radius: 10px;
+    color: #9b9b9b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
 }
 
 .p-11{
@@ -171,6 +182,14 @@ body{
     height: 45.2px;
     top: 714.32px;
     left: 114.5px;
+     background-color: #0f2d6b;
+    border-radius: 10px;
+    color: #9b9b9b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+
 }
 
 .p-12{
@@ -179,13 +198,20 @@ body{
     height: 45.2px;
     top: 770.78px;
     left: 114.5px;
+     background-color: #0f2d6b;
+    border-radius: 10px;
+    color: #9b9b9b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: px;
 }
 
 
 .p-13{
     position: absolute;
     display: flex;
-    top: 820px;
+    top: 805px;
     left: 149px;
     color: #9b9b9b;
     letter-spacing: 0.5px;
@@ -197,6 +223,8 @@ body{
 
 .p-14 img{
     border-radius: 0px 30px 30px 0px;
+    height: 1024px;
+    width: 700px;
 }
 
 
@@ -208,7 +236,7 @@ body{
 .hover-two{
     cursor: pointer;
 }
-.hover :hover{
+.hover:hover{
     cursor: pointer;
     border: 2px solid #4671c6;
 }
@@ -216,34 +244,23 @@ body{
 
 @media (min-width: 768px) and (max-width: 1250px){
     .p-14{
-        width: 200px;
+        width: 60vw;
     }
-}
-
-@media (min-width: 250px) and (max-width: 550px){
-    .p-14{
-        display: none;
-    }
-    .p-2{
-        width: 100vw;
-    }
-
-    .p-2{
-        width: 550px;
-        height: 790px;
-        border-radius: 30px;
+      .p-2{
+        width: 600px;
+        border-radius: 30px 0 0 30px;
     }
 
    .p-3 img{
         width: 250px;
         height: 70px;
-        left: 65px;
+        left: 80px;
     }
 
     .p-4{
         width: 250px;
         top: 150px;
-        left: 65px;
+        left: 80px;
     }
 
     .p-4 p{
@@ -255,7 +272,7 @@ body{
         width: 260px;
         height: 40px;
         top: 260px;
-        left: 65px;
+        left: 70px;
     }
 
     .p-5-1 img{
@@ -272,7 +289,7 @@ body{
         width: 260px;
         height: 40px;
         top: 306px;
-        left: 65px;
+        left: 70px;
     }
     .p-6-1 img{
         top: 9px;
@@ -291,19 +308,19 @@ body{
    .p-7 p{
        width: 140px;
        top: 334px;
-       left: 185px;
+       left: 190px;
     }
 
     .p-8{
         width: 260px;
         height: 40px;
         top: 430px;
-        left: 65px;
+        left: 70px;
     }
 
     .p-9{
         top: 490px;
-        left: 60px;
+        left: 65px;
 
     }
 
@@ -313,30 +330,150 @@ body{
     }
 
     .p-10{
-        width: 200px;
+        width: 260px;
         height: 40px;
         top: 530px;
-        left: 20px;
+        left: 70px;
 
     }
 
     .p-11{
-        width: 200px;
+        width: 260px;
         height: 40px;
         top: 580px;
-        left: 20px;
+        left: 70px;
     }
 
     .p-12{
-        width: 200px;
+        width: 260px;
         height: 40px;
         top: 630px;
-        left: 20px;
+        left: 70px;
     }
 
 
     .p-13{
+        width: 300px;
         top: 670px;
+        left: 30px;
+    }
+}
+
+@media (min-width: 250px) and (max-width: 550px){
+    .p-14{
+        display: none;
+    }
+
+    .p-2{
+        width: 400px;
+        height: 790px;
+        border-radius: 30px;
+    }
+
+   .p-3 img{
+        width: 250px;
+        height: 70px;
+        left: 80px;
+    }
+
+    .p-4{
+        width: 250px;
+        top: 150px;
+        left: 80px;
+    }
+
+    .p-4 p{
+       font-size: 20px;
+    }
+
+
+    .p-5{
+        width: 260px;
+        height: 40px;
+        top: 260px;
         left: 70px;
+    }
+
+    .p-5-1 img{
+        top: 8px;
+    }
+
+    .p-5-2 p{
+        width: 180px;
+        left: 35px;
+        top: -5px;
+    }
+
+    .p-6{
+        width: 260px;
+        height: 40px;
+        top: 306px;
+        left: 70px;
+    }
+    .p-6-1 img{
+        top: 9px;
+        left: 14px;
+    }
+
+    .p-6 p{
+        left: 35px;
+        top: -5px;
+    }
+
+    .p-6-2 img{
+        top: 12px;
+    }
+
+   .p-7 p{
+       width: 140px;
+       top: 334px;
+       left: 190px;
+    }
+
+    .p-8{
+        width: 260px;
+        height: 40px;
+        top: 430px;
+        left: 70px;
+    }
+
+    .p-9{
+        top: 490px;
+        left: 65px;
+
+    }
+
+    .p-9 hr{
+        border: 1px solid #9b9b9b;
+        width: 120px;
+    }
+
+    .p-10{
+        width: 260px;
+        height: 40px;
+        top: 530px;
+        left: 70px;
+
+    }
+
+    .p-11{
+        width: 260px;
+        height: 40px;
+        top: 580px;
+        left: 70px;
+    }
+
+    .p-12{
+        width: 260px;
+        height: 40px;
+        top: 630px;
+        left: 70px;
+    }
+
+
+    .p-13{
+        width: 300px;
+        top: 670px;
+        left: 30px;
     }
 }

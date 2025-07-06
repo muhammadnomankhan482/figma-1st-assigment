@@ -365,7 +365,7 @@ svg{
     }
 
     .p-2{
-        width: 400px;
+        width: 100vw;
         height: 790px;
         border-radius: 30px;
     }

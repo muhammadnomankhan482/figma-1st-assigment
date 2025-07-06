@@ -373,13 +373,13 @@ svg{
    .p-3 img{
         width: 250px;
         height: 70px;
-        left: 80px;
+        left: 60px;
     }
 
     .p-4{
         width: 250px;
         top: 150px;
-        left: 80px;
+        left: 60px;
     }
 
     .p-4 p{
@@ -391,7 +391,7 @@ svg{
         width: 260px;
         height: 40px;
         top: 260px;
-        left: 70px;
+        left: 50px;
     }
 
     .p-5-1 img{
@@ -408,7 +408,7 @@ svg{
         width: 260px;
         height: 40px;
         top: 306px;
-        left: 70px;
+        left: 50px;
     }
     .p-6-1 img{
         top: 9px;
@@ -427,19 +427,19 @@ svg{
    .p-7 p{
        width: 140px;
        top: 334px;
-       left: 190px;
+       left: 170px;
     }
 
     .p-8{
         width: 260px;
         height: 40px;
         top: 430px;
-        left: 70px;
+        left: 50px;
     }
 
     .p-9{
         top: 490px;
-        left: 65px;
+        left: 55px;
 
     }
 
@@ -452,7 +452,7 @@ svg{
         width: 260px;
         height: 40px;
         top: 530px;
-        left: 70px;
+        left: 50px;
 
     }
 
@@ -460,20 +460,20 @@ svg{
         width: 260px;
         height: 40px;
         top: 580px;
-        left: 70px;
+        left: 50px;
     }
 
     .p-12{
         width: 260px;
         height: 40px;
         top: 630px;
-        left: 70px;
+        left: 50px;
     }
 
 
     .p-13{
         width: 300px;
         top: 670px;
-        left: 30px;
+        left: 10px;
     }
 }

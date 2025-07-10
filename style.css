@@ -1,6 +1,7 @@
 body{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
 }
 
 .p-1{
@@ -18,13 +19,15 @@ body{
     border-radius: 30px 0 0px 30px;
 }
 
+.p-3{
+    display: flex;
+    justify-content: center;
+}
 .p-3 img{
     position: absolute;
     width: 419px;
     height: 114px;
     top: 88px;
-    left: 60px;
-    
 }
 
 .p-4{
@@ -114,12 +117,16 @@ body{
     cursor: pointer;
 }
 
+.p-7{
+    display: flex;
+    justify-content: flex-start;
+}
+
 .p-7 p{
     position: absolute;
-    width: 134px;
+    width: 204px;
     height: 17px;
     top: 402px;
-    left: 295px;
     font-weight: 400px;
     font-size: 16px;
     line-height: 108%;
@@ -221,7 +228,7 @@ svg{
 .p-14 img{
     border-radius: 0px 30px 30px 0px;
     height: 1024px;
-    width: 700px;
+    width: 60vw;
 }
 
 
@@ -251,7 +258,6 @@ svg{
    .p-3 img{
         width: 250px;
         height: 70px;
-        left: 80px;
     }
 
     .p-4{
@@ -283,7 +289,6 @@ svg{
    .p-7 p{
        width: 140px;
        top: 350px;
-       left: 190px;
     }
 
     .p-8{
@@ -378,7 +383,6 @@ svg{
    .p-7 p{
        width: 140px;
        top: 350px;
-       left: 189px;
     }
 
     .p-8{
